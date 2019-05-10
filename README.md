@@ -53,13 +53,14 @@ After download the datasets, don't forget to transform the format!
 
 # Cite
 Please kindly consider citing our paper:
->@article{sdsen_2018, <br />
-  title={Self-Refining Deep Symmetry Enhanced Network for Rain Removal}, <br />
-  author={Ye, Hanrong and Li, Xia and Liu, Hong and Shi, Wei and Liu, Mengyuan and Sun, Qianru},<br />
-  journal={arXiv preprint arXiv:1811.04761},<br />
-  year={2018}<br />
+```
+@article{sdsen_2018, 
+  title={Self-Refining Deep Symmetry Enhanced Network for Rain Removal},
+  author={Ye, Hanrong and Li, Xia and Liu, Hong and Shi, Wei and Liu, Mengyuan and Sun, Qianru},
+  journal={arXiv preprint arXiv:1811.04761},
+  year={2018}
 }
-
+```
 
 # Contact:
 Hanrong Ye leoyhr@pku.edu.cn
