@@ -2,7 +2,7 @@
 
 ![equi](https://github.com/prismformore/SDSEN/raw/master/imgs/equi.jpg)
 
-This repo is an implementation of [SDSEN](https://arxiv.org/pdf/1811.04761.pdf).
+This repo is an implementation of the SDSEN ([arXiv preprint](https://arxiv.org/pdf/1811.04761.pdf)).
 
 Rain removal aims to extract and remove rain streaks from images. Although convolutional neural network (CNN) based methods have achieved impressive results in this field, they are not equivariant to object rotation, which decreases their generalization capacity for tilted rain streaks. In order to solve this problem, we propose Deep Symmetry Enhanced Network (DSEN). DSEN extracts rotationally equivariant features of rain streaks, and then generates rain layer for image restoration. Furthermore, an efficient selfrefining mechanism is designed to remove accumulated rain streaks more thoroughly. Experimental study verifies the validity of our method, with self-refining DSEN yielding the state-of-the-art performance on both synthetic and real-world rain image datasets.
 
