@@ -32,7 +32,7 @@ Rain removal aims to extract and remove rain streaks from images. Although convo
 - showdir: holds images predicted by the model
 
 
-## Default Dataset settings
+## Default Settings
 Rain100H: [http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html][9]<br>
 Rain800: [https://drive.google.com/drive/folders/0Bw2e6Q0nQQvGbi1xV1Yxd09rY2s][10]
 
@@ -40,10 +40,15 @@ We concatenate the two images(B and O) together as default inputs. If you want t
 Moreover, there should be three folders 'train', 'val', 'test' in the dataset folder.
 After download the datasets, don't forget to transform the format!
 
+Both DSEN and SDSEN are provided in ```model.py```. On the new Rain100H test set (with 200 image pairs), SDSEN and DSEN achieve 0.8492 and 0.7511 respectively.
+
+
 ## Train, Test and Show
-    python main.py -a train
-    python main.py -a test
+```
+    python train.py
+    python eval.py
     python show.py
+```
 
 ## Scripts
 - explore.sh: Show the predicted images in browser
