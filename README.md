@@ -45,9 +45,9 @@ Both DSEN and SDSEN are provided in ```model.py```. On the new Rain100H test set
 
 ## Train, Test and Show
 ```
-    python train.py
-    python eval.py
-    python show.py
+    python config/train.py
+    python config/eval.py
+    python config/show.py
 ```
 
 ## Scripts
@@ -59,12 +59,13 @@ Both DSEN and SDSEN are provided in ```model.py```. On the new Rain100H test set
 # Cite
 Please kindly consider citing our paper:
 ```
-@article{sdsen_2018, 
-  title={Self-Refining Deep Symmetry Enhanced Network for Rain Removal},
-  author={Ye, Hanrong and Li, Xia and Liu, Hong and Shi, Wei and Liu, Mengyuan and Sun, Qianru},
-  journal={arXiv preprint arXiv:1811.04761},
-  year={2018}
-}
+@INPROCEEDINGS{sdsen_2018,
+author={Ye, Hanrong and Li, Xia and Liu, Hong and Shi, Wei and Liu, Mengyuan and Sun, Qianru},
+booktitle={2019 IEEE International Conference on Image Processing (ICIP)},
+title={Self-Refining Deep Symmetry Enhanced Network for Rain Removal},
+year={2019},
+pages={2786-2790},
+doi={10.1109/ICIP.2019.8803265},
 ```
 
 # Contact:
