@@ -33,7 +33,7 @@ Rain removal aims to extract and remove rain streaks from images. Although convo
 
 
 ## Default Settings
-Rain100H: [http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html][9]
+Rain100H: [http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html]
 
 
 We concatenate the two images(B and O) together as default inputs. If you want to change this setting, just modify config/dataset.py.
