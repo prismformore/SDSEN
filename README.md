@@ -60,7 +60,7 @@ Both DSEN and SDSEN are provided in ```model.py```. On the new Rain100H test set
 Please kindly consider citing our paper:
 ```
 @INPROCEEDINGS{sdsen_2018,
-author={Ye, Hanrong and Li, Xia and Liu, Hong and Shi, Wei and Liu, Mengyuan and Sun, Qianru},
+author={Liu, Hong and Ye, Hanrong and Li, Xia and Shi, Wei and Liu, Mengyuan and Sun, Qianru},
 booktitle={2019 IEEE International Conference on Image Processing (ICIP)},
 title={Self-Refining Deep Symmetry Enhanced Network for Rain Removal},
 year={2019},
